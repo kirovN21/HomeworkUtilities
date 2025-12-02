@@ -8,7 +8,7 @@
         {
             string testString = "racecar";
 
-            if(PalindromeCheck(testString))
+            if(PalindromesCheck(testString))
             {
                 Console.WriteLine($"{testString} is a palindrome.");
             }
@@ -18,7 +18,7 @@
             }
         }
 
-        static bool PalindromeCheck(string inputString)
+        static bool PalindromesCheck(string inputString)
         {
             if (inputString == null)
             {

@@ -22,8 +22,7 @@ namespace SpyNameGenerator
             string s2 = "Ivanov"; //VON after rework
 
             CreateCodeName(s1, s2);
-           string result = EncryptName("AJVON", 3);
-            Console.WriteLine( result);
+           
         }
 
         static void CreateCodeName(string firstName, string lastName)
@@ -48,17 +47,6 @@ namespace SpyNameGenerator
             char temp = array[index1];
             array[index1] = array[index2];
             array[index2] = temp;
-        }
-
-        static string EncryptName(string name, int shift)
-        {
-            string cipherText = "";
-            foreach (char c in name)
-            {
-                char shifted = (char)(((shift - 'a') % 26) + 'a');
-                cipherText += shifted;
-            }
-            return cipherText;
         }
     }
 }
