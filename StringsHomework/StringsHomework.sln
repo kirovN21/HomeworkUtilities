@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringsHomework", "StringsHomework.csproj", "{FCFF13B6-F382-42C9-9CDE-36A4F391374D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExtractEmailDomain", "ExtractEmailDomain", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StringEqualityComparison", "StringEqualityComparison", "{369CB01D-A1A7-72D2-AABC-3F0945D148A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PalindromeCheck", "PalindromeCheck", "{7DC331D0-3EC4-40A6-69FB-1CBEB2E0D1EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LetterCountOccurence", "LetterCountOccurence", "{643747C7-0307-8931-84D8-A7D1915E22E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FindCentralChars", "FindCentralChars", "{5835D766-9847-1D08-5E95-5A99FD0F495D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpyNameGenerator", "SpyNameGenerator", "{407CAF19-D506-2637-4B8A-F4DE78C81282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractEmailDomain", "..\ExtractEmailDomain\ExtractEmailDomain.csproj", "{8CCCD5C7-4831-49B2-A916-91D912A905E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringEqualityComparison", "..\StringEqualityComparison\StringEqualityComparison.csproj", "{4B17EE96-4A67-49FB-831C-92B8C377E481}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeCheck", "..\PalindromeCheck\PalindromeCheck.csproj", "{AD9283D5-FAF7-4CA3-8806-55B9DC1246EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetterCountOccurence", "..\LetterCountOccurence\LetterCountOccurence.csproj", "{4DD0BD0C-C5C2-4EEC-90A0-AF8F31DD9142}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindCentralChars", "..\FindCentralChars\FindCentralChars.csproj", "{FDCEEB67-6F33-4D39-A7BC-0CB6AE8D875F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpyNameGenerator", "..\SpyNameGenerator\SpyNameGenerator.csproj", "{1FE8AC84-2DAD-4DD2-B75B-8BEA81B4064E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCFF13B6-F382-42C9-9CDE-36A4F391374D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCFF13B6-F382-42C9-9CDE-36A4F391374D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCFF13B6-F382-42C9-9CDE-36A4F391374D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCFF13B6-F382-42C9-9CDE-36A4F391374D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CCCD5C7-4831-49B2-A916-91D912A905E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CCCD5C7-4831-49B2-A916-91D912A905E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CCCD5C7-4831-49B2-A916-91D912A905E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CCCD5C7-4831-49B2-A916-91D912A905E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B17EE96-4A67-49FB-831C-92B8C377E481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B17EE96-4A67-49FB-831C-92B8C377E481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B17EE96-4A67-49FB-831C-92B8C377E481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B17EE96-4A67-49FB-831C-92B8C377E481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD9283D5-FAF7-4CA3-8806-55B9DC1246EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD9283D5-FAF7-4CA3-8806-55B9DC1246EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD9283D5-FAF7-4CA3-8806-55B9DC1246EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD9283D5-FAF7-4CA3-8806-55B9DC1246EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DD0BD0C-C5C2-4EEC-90A0-AF8F31DD9142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD0BD0C-C5C2-4EEC-90A0-AF8F31DD9142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DD0BD0C-C5C2-4EEC-90A0-AF8F31DD9142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD0BD0C-C5C2-4EEC-90A0-AF8F31DD9142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDCEEB67-6F33-4D39-A7BC-0CB6AE8D875F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCEEB67-6F33-4D39-A7BC-0CB6AE8D875F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCEEB67-6F33-4D39-A7BC-0CB6AE8D875F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCEEB67-6F33-4D39-A7BC-0CB6AE8D875F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE8AC84-2DAD-4DD2-B75B-8BEA81B4064E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE8AC84-2DAD-4DD2-B75B-8BEA81B4064E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE8AC84-2DAD-4DD2-B75B-8BEA81B4064E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE8AC84-2DAD-4DD2-B75B-8BEA81B4064E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8CCCD5C7-4831-49B2-A916-91D912A905E4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{4B17EE96-4A67-49FB-831C-92B8C377E481} = {369CB01D-A1A7-72D2-AABC-3F0945D148A2}
+		{AD9283D5-FAF7-4CA3-8806-55B9DC1246EB} = {7DC331D0-3EC4-40A6-69FB-1CBEB2E0D1EA}
+		{4DD0BD0C-C5C2-4EEC-90A0-AF8F31DD9142} = {643747C7-0307-8931-84D8-A7D1915E22E5}
+		{FDCEEB67-6F33-4D39-A7BC-0CB6AE8D875F} = {5835D766-9847-1D08-5E95-5A99FD0F495D}
+		{1FE8AC84-2DAD-4DD2-B75B-8BEA81B4064E} = {407CAF19-D506-2637-4B8A-F4DE78C81282}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A681F674-91F0-492B-A219-E909A76438E0}
+	EndGlobalSection
+EndGlobal
